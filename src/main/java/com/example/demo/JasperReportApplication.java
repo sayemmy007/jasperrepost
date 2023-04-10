@@ -20,6 +20,8 @@ import net.sf.jasperreports.engine.JRException;
 @SpringBootApplication
 @RestController
 public class JasperReportApplication {
+	int a=0;
+	
     @Autowired
     private EmployeeRepository repository;
     @Autowired
